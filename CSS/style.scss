@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #006d77;
+
+    .calc-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #003049;
+        padding: 10px;
+        border-radius: 10px;
+
+        h1 {
+            text-align: end;
+            background-color: #006d77;
+            margin: 5px;
+            border-radius: 5px;
+            color: #003049;
+        }
+
+        button {
+            background-color: #52b69a;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            width: 50px;
+            height: 50px;
+            transition: .2s;
+            margin: 1px;
+            font-size: 20px;
+            font-family: 'Corinthia', cursive;
+            color: #003049;
+            font-weight: bold;
+
+            &:hover {
+                background-color: #184e77;
+            }
+        }
+    }
+}
