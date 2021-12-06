@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Corinthia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +11,7 @@ body {
 }
 
 body .calc-container {
+  font-family: 'Rubik', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,7 +41,6 @@ body .calc-container button {
   transition: .2s;
   margin: 1px;
   font-size: 20px;
-  font-family: 'Corinthia', cursive;
   color: #003049;
   font-weight: bold;
 }
