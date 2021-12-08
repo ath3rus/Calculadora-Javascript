@@ -22,7 +22,11 @@ body .calc-container {
   border-radius: 10px;
 }
 
-body .calc-container h1 {
+body .calc-container #res {
+  background-color: azure;
+  padding: 10px;
+  width: 95%;
+  height: 7vh;
   text-align: end;
   background-color: #006d77;
   margin: 5px;

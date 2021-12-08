@@ -10,12 +10,14 @@
 <body>
     <div class="calc-container">
         <table>
-            <h1 id="resultado"> </h1>
+          <div id="res">
+            <h1 id="resultado"></h1>
+          </div>
             <tr>
               <td><button onclick="limpar()">c</button></td>
               <td><button onclick="del()">cc</button></td>
-              <td><button onclick="inserir('÷')">÷</button></td>
-              <td><button onclick="inserir('x')">x</button></td>
+              <td><button onclick="inserir('/')">÷</button></td>
+              <td><button onclick="inserir('*')">x</button></td>
             </tr>
             <tr>
                 <td><button onclick="inserir('7')">7</button></td>
@@ -26,14 +28,14 @@
               <tr>
                 <td><button onclick="inserir('4')">4</button></td>
                 <td><button onclick="inserir('5')">5</button></td>
-                <td><button onclick="casa()">6</button></td>
+                <td><button onclick="inserir('6')">6</button></td>
                 <td><button onclick="inserir('+')">+</button></td>
               </tr>
               <tr>
                 <td><button onclick="inserir('1')">1</button></td>
                 <td><button onclick="inserir('2')">2</button></td>
                 <td><button onclick="inserir('3')">3</button></td>
-                <td rowspan="2"><button style="height: 104px;" onclick="inserir('=')">=</button></td>
+                <td rowspan="2"><button style="height: 104px;" onclick="calcular()">=</button></td>
               </tr>
               <tr>
                 <td colspan="2"><button style="width: 102px;" onclick="inserir('0')">0</button></td>
